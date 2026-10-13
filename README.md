@@ -2,7 +2,9 @@
 
 Turn any webcam into a facial motion-capture device: your facial expressions drive a 3D character in Unreal Engine in real time.
 
-![Demo: real face (left) driving the Unreal character (right)](assets/demo.gif)
+![Demo: webcam face with tracked landmarks (right) driving the Unreal character (left)](assets/demo.gif)
+
+*Real-time speed, three short clips: smile, mouth funnel, jaw open.*
 
 ## TL;DR
 
@@ -159,6 +161,3 @@ This repository accompanies my **Bachelor's thesis** *"Facial Landmark Tracking 
 
 **Credits:** [MediaPipe](https://github.com/google/mediapipe) (Google), [MeFaMo](https://github.com/JimWest/MeFaMo) and [PyLiveLinkFace](https://github.com/JimWest/PyLiveLinkFace) (Marco Pattke), [Ready Player Me](https://readyplayer.me), [glTFRuntime](https://github.com/rdeioris/glTFRuntime) (Roberto De Ioris). Third-party licenses are in the respective folders.
 
----
-
-**[Your Name]** · [LinkedIn](https://www.linkedin.com/in/[your-profile]) · [[your.email@example.com]](mailto:[your.email@example.com])
