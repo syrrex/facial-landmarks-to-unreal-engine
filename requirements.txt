@@ -1,0 +1,12 @@
+# Tested with Python 3.9 on Windows 11 (versions as used for the thesis, 2023).
+# Newer mediapipe releases removed the legacy `mp.solutions` API that MeFaMo uses.
+numpy==1.24.1
+opencv-python==4.7.0.68
+mediapipe==0.9.0.1
+open3d==0.17.0
+transforms3d==0.4.1
+pylivelinkface==0.1
+
+# Only needed for the scripts in experiments/
+keyboard==0.13.5
+# dlib==19.24.0   # optional, needs CMake + a C++ compiler; used by experiments/dlib_68_landmarks.py
